@@ -1,0 +1,76 @@
+/* Estilos da página index.html*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+
+header{
+    height: 130px;
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+header, ul {
+    display: flex;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    justify-self: flex-start;
+    height : 100px;
+    width: 100px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+li {
+    margin: 20px;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1, h2{
+    font-family: 'Roboto Mono', serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+p {
+    margin: 30px;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+}
+
+.container {
+    overflow: hidden;
+}
+.texto {
+    height: 40%;
+    padding: 30px;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Estilos da página contato.html*/
