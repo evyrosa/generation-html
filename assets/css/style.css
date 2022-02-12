@@ -5,13 +5,13 @@
     margin: 0;
     padding: 0;
 }
-body{
-    
+body::before{
+
 }
 
 header{
     height: 130px;
-    background-color: black;
+    background-color: #010101;
     padding: 10px;
     align-items: center;
     justify-content: space-between ;
@@ -49,6 +49,7 @@ h1, h2{
     font-family: 'Roboto Mono', serif;
     font-weight: 600;
     text-align: center;
+    color: white;
 }
 
 p {
@@ -66,11 +67,49 @@ main {
 .texto {
     height: 40%;
     padding: 30px;
+    background-color: #141414;
+    color: white;
 }
 
 .video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #010101;
+    padding: 50px;
+    color: white;
 }
 /* Estilos da página contato.html*/
+
+.background {
+    height: 100vh;
+    content: '';
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(/assets/img/thom_yorke_contato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contato {
+    width: 75%;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #01010183;
+}
+
+h2 {
+    margin: 30px;
+}
+
+.main {
+    width: 100vw;
+    margin: auto;
+}
